@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# MSS Launchpad Hub
 
-## Project info
+## Sobre o Projeto
 
-**URL**: https://lovable.dev/projects/f986fc03-707b-43b1-80c0-635d100e46cb
+Este é um projeto de consultoria especializada em RPA, Inteligência Artificial e Produtos Digitais.
 
-## How can I edit this code?
+## Tecnologias Utilizadas
 
-There are several ways of editing your application.
+- ⚡ Vite - Build tool moderna e rápida
+- ⚛️ React 18 - Biblioteca para interfaces de usuário
+- 📘 TypeScript - JavaScript com tipagem estática
+- 🎨 Tailwind CSS - Framework CSS utilitário
+- 🧩 shadcn/ui - Componentes de UI modernos
+- 🎯 Radix UI - Componentes acessíveis
 
-**Use Lovable**
+## Como Executar o Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f986fc03-707b-43b1-80c0-635d100e46cb) and start prompting.
+### Pré-requisitos
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (versão 18 ou superior)
+- npm ou yarn
 
-**Use your preferred IDE**
+### Instalação
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# Clone o repositório
+git clone <URL_DO_REPOSITORIO>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Navegue para o diretório do projeto
+cd mss-launchpad-hub
 
-Follow these steps:
+# Instale as dependências
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Execute o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Scripts Disponíveis
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria build de produção
+- `npm run preview` - Visualiza o build de produção
+- `npm run lint` - Executa o linter
 
-**Use GitHub Codespaces**
+## Estrutura do Projeto
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/     # Componentes React
+├── pages/         # Páginas da aplicação
+├── hooks/         # Custom hooks
+├── lib/           # Utilitários e configurações
+└── assets/        # Imagens e recursos estáticos
+```
 
-## What technologies are used for this project?
+## Deploy
 
-This project is built with:
+Para fazer deploy do projeto:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+# Build de produção
+npm run build
 
-## How can I deploy this project?
+# Os arquivos estarão na pasta dist/
+```
 
-Simply open [Lovable](https://lovable.dev/projects/f986fc03-707b-43b1-80c0-635d100e46cb) and click on Share -> Publish.
+## Contribuição
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature
+3. Commit suas mudanças
+4. Push para a branch
+5. Abra um Pull Request
